@@ -4,8 +4,9 @@ https://github.com/panutat-p/learn-svelte
 
 ## Guide
 
-* https://svelte.dev/docs/svelte/getting-started
-* https://github.com/sveltejs/cli
+- https://svelte.dev/docs/svelte/getting-started
+- https://svelte.dev/tutorial/svelte/welcome-to-svelte
+- https://github.com/sveltejs/cli
 
 ## Developing
 
