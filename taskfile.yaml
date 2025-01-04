@@ -4,7 +4,7 @@ tasks:
   install:
     cmds:
       - npm i -g prettier
-      - npm i --force
+      - npm i
 
   lint:
     cmds:
