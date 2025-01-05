@@ -1,5 +1,6 @@
 <script lang="ts">
   import Paragraph from '../components/Paragraph.svelte';
+  import Button from '../components/Button.svelte';
 
   let name = 'John';
   let imgUrl =
@@ -20,6 +21,7 @@
   > to read about nested components
 </p>
 <Paragraph />
+<Button />
 <img src={imgUrl} alt="Milky Way Switzerland" />
 
 <style>
