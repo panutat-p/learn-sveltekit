@@ -1,6 +1,7 @@
 <script lang="ts">
   import Paragraph from '../components/Paragraph.svelte'
   import Button from '../components/Button.svelte'
+  import List from '../components/List.svelte'
 
   let name = 'John'
   let imgUrl =
@@ -22,6 +23,7 @@
 </p>
 <Paragraph />
 <Button />
+<List />
 <img src={imgUrl} alt="Milky Way Switzerland" />
 
 <style>
