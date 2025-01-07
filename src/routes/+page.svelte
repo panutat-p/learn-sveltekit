@@ -2,6 +2,7 @@
   import Paragraph from '../components/Paragraph.svelte'
   import Button from '../components/Button.svelte'
   import List from '../components/List.svelte'
+  import Speed from '../components/Speed.svelte'
 
   let name = 'John'
   let imgUrl =
@@ -24,6 +25,7 @@
 <Paragraph />
 <Button />
 <List />
+<Speed />
 <img src={imgUrl} alt="Milky Way Switzerland" />
 
 <style>
