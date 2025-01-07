@@ -5,6 +5,8 @@
   function addNumber() {
     numbers.push(numbers.length + 1)
   }
+
+  $inspect(numbers)
 </script>
 
 <div>
