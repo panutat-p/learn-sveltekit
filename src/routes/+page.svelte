@@ -22,7 +22,7 @@
   Visit <a href="https://svelte.dev/tutorial/svelte/nested-components" target="_blank">svelte.dev</a
   > to read about nested components
 </p>
-<Paragraph />
+<Paragraph title="🤖 Robot" />
 <Button />
 <List />
 <Speed />
