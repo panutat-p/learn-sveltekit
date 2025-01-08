@@ -38,8 +38,4 @@
     font-family: 'Comic Sans MS', cursive;
     font-size: 2em;
   }
-  img {
-    width: auto;
-    height: 500px;
-  }
 </style>
