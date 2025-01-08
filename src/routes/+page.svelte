@@ -3,14 +3,18 @@
   import Button from '../components/Button.svelte'
   import List from '../components/List.svelte'
   import Speed from '../components/Speed.svelte'
+  import Fruit from '../components/Fruit.svelte'
 
-  let name = 'John'
-  let imgUrl =
-    'https://images.unsplash.com/photo-1735598417949-d22e9f8092ea?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+  const apple = {
+    name: '🍎 Apple',
+    image:
+      'https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlZCUyMGFwcGxlc3xlbnwwfHwwfHx8MA%3D%3D',
+    color: 'red',
+    price: 50.25
+  }
 </script>
 
 <h1>Welcome to SvelteKit</h1>
-<h2>Hello {name.toUpperCase()}</h2>
 <p>
   Visit <a href="https://svelte.dev/docs/kit" target="_blank">svelte.dev</a> to read the documentation
 </p>
@@ -26,7 +30,7 @@
 <Button />
 <List />
 <Speed />
-<img src={imgUrl} alt="Milky Way Switzerland" />
+<Fruit {...apple} />
 
 <style>
   p {
