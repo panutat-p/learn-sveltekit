@@ -19,14 +19,6 @@
 <p>
   Visit <a href="https://svelte.dev/docs/kit" target="_blank">svelte.dev</a> to read the documentation
 </p>
-<p>
-  Visit <a href="https://svelte.dev/tutorial/svelte/styling" target="_blank">svelte.dev</a> to read about
-  styling
-</p>
-<p>
-  Visit <a href="https://svelte.dev/tutorial/svelte/nested-components" target="_blank">svelte.dev</a
-  > to read about nested components
-</p>
 <Paragraph title="🤖 Robot" />
 <Button />
 <List />

@@ -5,10 +5,12 @@ https://github.com/panutat-p/learn-svelte
 ## Guide
 
 - https://svelte.dev/docs/svelte/getting-started
-- https://svelte.dev/tutorial/svelte/welcome-to-svelte
-- https://github.com/sveltejs/cli
+- https://svelte.dev/tutorial/svelte/derived-state
+- https://svelte.dev/tutorial/svelte/effects
 
 ## Developing
+
+- https://github.com/sveltejs/cli
 
 ```sh
 npm run dev
