@@ -4,6 +4,7 @@
   import List from '../components/List.svelte'
   import Speed from '../components/Speed.svelte'
   import Fruit from '../components/Fruit.svelte'
+  import SharedCounter from '../components/SharedCounter.svelte'
 
   const apple = {
     name: '🍎 Apple',
@@ -31,6 +32,7 @@
 <List />
 <Speed />
 <Fruit {...apple} />
+<SharedCounter />
 
 <style>
   p {
