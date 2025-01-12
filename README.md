@@ -1,6 +1,6 @@
-# learn-svelte
+# learn-sveltekit
 
-https://github.com/panutat-p/learn-svelte
+https://github.com/panutat-p/learn-sveltekit
 
 ## Guide
 
