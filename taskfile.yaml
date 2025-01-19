@@ -3,12 +3,11 @@ version: '3'
 tasks:
   install:
     cmds:
-      - npm i -g prettier
       - npm i
 
   lint:
     cmds:
-      - prettier --write .
+      - npx prettier --write .
 
   dev:
     cmds:
